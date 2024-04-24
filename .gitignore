@@ -1,0 +1,15 @@
+node_modules
+*.log*
+*-audit.json
+.nuxt
+.nitro
+.cache
+.output
+dist
+dist-cjs
+logs/
+output
+
+package-lock.json
+
+vectorx-*-*.tgz

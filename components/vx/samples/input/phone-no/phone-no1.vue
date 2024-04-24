@@ -1,0 +1,23 @@
+<template>
+  <v-card>
+    <template #title> Input - 전화번호 </template>
+    <template #subtitle> 전화번호 컴포넌트 설명 </template>
+    <template #text>
+      <VxPhoneNoBox v-model="test1" />
+      <VxMarkdownViewer>
+        {{ phoneNo1 }}
+      </VxMarkdownViewer>
+    </template>
+  </v-card>
+</template>
+
+<script setup lang="ts">
+import { ref } from 'vue'
+import { VxMarkdownViewer } from '#vectorx/nuxt/components'
+
+// @ts-ignore
+import phoneNo1 from './md/phone-no1.md'
+const test1 = ref('')
+</script>
+
+<style scoped></style>
