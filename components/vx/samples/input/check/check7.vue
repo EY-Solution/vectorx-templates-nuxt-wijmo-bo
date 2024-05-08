@@ -22,7 +22,7 @@
   </v-card>
 </template>
 <script lang="ts" setup>
-import { ref, reactive, computed } from '#vectorx/nuxt'
+import { reactive, computed } from '#vectorx/nuxt'
 import { VxCheckGroupBox } from '#vectorx/nuxt-wijmo/components'
 import { VxMarkdownViewer } from '#vectorx/nuxt/components'
 

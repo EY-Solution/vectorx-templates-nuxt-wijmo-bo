@@ -22,7 +22,7 @@ import { VxDatePeriodBox } from '#vectorx/nuxt-wijmo/components'
 import doc from './md/date-period4.md'
 
 const dateArr7 = ref(['20220507', '20221009'])
-const dateArr11 = ref(['20220507', '20221009'])
+// const dateArr11 = ref(['20220507', '20221009'])
 </script>
 <style scoped>
 .samplebox {

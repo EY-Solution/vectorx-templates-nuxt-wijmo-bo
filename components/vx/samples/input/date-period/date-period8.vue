@@ -17,14 +17,14 @@
   </v-card>
 </template>
 <script lang="ts" setup>
-import { ref, reactive, computed } from 'vue'
+import { ref } from 'vue'
 import { VxMarkdownViewer } from '#vectorx/nuxt/components'
 
 // @ts-ignore
 import doc from './md/date-period7.md'
 
 const dateArr10 = ref(['20220507220912', '20221009220912'])
-const dateArr11 = ref(['20220507', '20221009'])
+// const dateArr11 = ref(['20220507', '20221009'])
 </script>
 <style scoped>
 .samplebox {

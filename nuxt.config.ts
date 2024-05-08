@@ -4,6 +4,15 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'VectorX Node Management System',
+      bodyAttrs: {
+        class: 'vx management',
+      },
+    },
+  },
+  vite: {
+    // FIXME: remove property after v24.1.4
+    optimizeDeps: {
+      include: ['markdown-it-highlightjs/core'],
     },
   },
   devtools: {

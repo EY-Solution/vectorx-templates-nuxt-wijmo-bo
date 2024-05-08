@@ -21,5 +21,5 @@ import { VxCodeRadioGroupBox } from '#vectorx/nuxt-wijmo/management/components'
 import radio2 from './md/radio2.md'
 
 const radioValue = ref(null)
-const radioObjectValue = ref(null)
+// const radioObjectValue = ref(null)
 </script>

@@ -25,7 +25,7 @@
   </VCard>
 </template>
 <script lang="ts" setup>
-import { shallowRef, ref, reactive } from '#vectorx/nuxt'
+import { shallowRef, ref } from '#vectorx/nuxt'
 import { WjComboBox, VxMarkdownViewer } from '#vectorx/nuxt-wijmo/components'
 import { wijmoInput } from '#vectorx/nuxt-wijmo'
 
@@ -41,8 +41,8 @@ const items = [
   { value: '02', text: '항목2' },
 ]
 
-const inputData = reactive({
-  comboValue: null,
-})
-const comboValue2 = ref(null)
+// const inputData = reactive({
+//   comboValue: null,
+// })
+// const comboValue2 = ref(null)
 </script>

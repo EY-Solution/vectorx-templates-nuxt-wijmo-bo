@@ -31,7 +31,7 @@
   </VCard>
 </template>
 <script lang="ts" setup>
-import { ref, computed } from '#vectorx/nuxt'
+import { ref } from '#vectorx/nuxt'
 import { VxMarkdownViewer } from '#vectorx/nuxt-wijmo/components'
 import { VxCkEditor5 } from '#vectorx/nuxt-ckeditor5/components'
 import { useVxCkEditor5 } from '#vectorx/nuxt-ckeditor5/composables'

@@ -21,7 +21,7 @@
 </template>
 <script lang="ts" setup>
 import { ref } from '#vectorx/nuxt'
-import { VxValidationGroup, WjInputMask } from '#vectorx/nuxt-wijmo/components'
+import { VxValidationGroup } from '#vectorx/nuxt-wijmo/components'
 import { VxMarkdownViewer } from '#vectorx/nuxt/components'
 import CustomSub from './sub/custom-sub.vue'
 

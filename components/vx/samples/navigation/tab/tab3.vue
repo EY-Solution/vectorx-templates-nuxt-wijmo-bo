@@ -23,7 +23,7 @@
 <script lang="ts" setup>
 import { WjTabPanel, WjTab, VxButton, VxMarkdownViewer } from '#vectorx/nuxt-wijmo/components'
 import { useWijmoTabPanel } from '#vectorx/nuxt-wijmo/composables'
-import { ref, reactive } from '#vectorx/nuxt'
+import { reactive } from '#vectorx/nuxt'
 
 // @ts-ignore
 import tab3 from './md/tab3.md'

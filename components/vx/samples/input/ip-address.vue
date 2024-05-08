@@ -56,8 +56,8 @@ import ipAddress1 from './md/ip-address1.md'
 // @ts-ignore
 import ipAddress2 from './md/ip-address2.md'
 
-let ipValue = ref<string>('127.0.0.1')
-let ipListValue = ref(['127.0.0.1', '127.0.0.2', '127.0.0.3'])
+const ipValue = ref<string>('127.0.0.1')
+const ipListValue = ref(['127.0.0.1', '127.0.0.2', '127.0.0.3'])
 
 const chk1 = () => {
   alert(ipValue.value)

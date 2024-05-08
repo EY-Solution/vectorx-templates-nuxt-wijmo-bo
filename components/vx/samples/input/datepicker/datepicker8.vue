@@ -18,7 +18,7 @@
   </VCard>
 </template>
 <script lang="ts" setup>
-import { ref, onMounted, watch } from '#vectorx/nuxt'
+import { ref } from '#vectorx/nuxt'
 import { VxMarkdownViewer } from '#vectorx/nuxt/components'
 import VxDatepicker from '#vectorx/nuxt-vuetify/components/form/vx-datepicker.vue'
 

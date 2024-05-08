@@ -48,7 +48,7 @@ const value1 = ref(null)
 
 watch(
   value1,
-  v => {
+  () => {
     if (!value1.value) {
       value1.value = new Date()
     }

@@ -25,7 +25,7 @@
 
 <script setup lang="ts">
 import base9 from './md/base9.md'
-import { reactive, ref } from '#vectorx/nuxt'
+import { reactive } from '#vectorx/nuxt'
 const data1 = reactive([
   { value: 1, label: 'test1' },
   { value: 2, label: 'test2' },

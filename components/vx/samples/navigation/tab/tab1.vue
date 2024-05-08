@@ -20,7 +20,7 @@
   </VCard>
 </template>
 <script lang="ts" setup>
-import { WjTabPanel, WjTab, VxButton, VxMarkdownViewer } from '#vectorx/nuxt-wijmo/components'
+import { WjTabPanel, WjTab, VxMarkdownViewer } from '#vectorx/nuxt-wijmo/components'
 import { useWijmoTabPanel } from '#vectorx/nuxt-wijmo/composables'
 
 // @ts-ignore

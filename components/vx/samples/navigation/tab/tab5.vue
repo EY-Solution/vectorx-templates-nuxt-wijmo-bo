@@ -31,7 +31,7 @@ const tabData = reactive([
 const tabPanel = useWijmoTabPanel({
   onAfterInitialized(control) {
     nextTick(() => {
-      control.selectedIndexChanged.addHandler((s, e) => {
+      control.selectedIndexChanged.addHandler(s => {
         alert('tab index changed : ' + s.selectedIndex)
       })
     })

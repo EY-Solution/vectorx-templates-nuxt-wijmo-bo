@@ -28,17 +28,17 @@
   </VxSampleContentContainer>
 </template>
 <script lang="ts" setup>
-import { ref, reactive, shallowRef } from '#vectorx/nuxt'
+import { ref, shallowRef } from '#vectorx/nuxt'
 import { VxSampleContentContainer } from '#vectorx/nuxt-vuetify/samples'
 import { WjAccordion, WjAccordionPane, VxMarkdownViewer } from '#vectorx/nuxt-wijmo/components'
-import { useWjAccordion } from '#vectorx/nuxt-wijmo/composables/accordion'
+// import { useWjAccordion } from '#vectorx/nuxt-wijmo/composables/accordion'
 
 // @ts-ignore
 import doc1 from './md/accordion3.md'
 
 const selectedIndex = ref(0)
 const accordionComp = shallowRef()
-const accrodion = useWjAccordion(accordionComp)
+// const accrodion = useWjAccordion(accordionComp)
 </script>
 <style lang="scss" scoped>
 .custom-accordion {

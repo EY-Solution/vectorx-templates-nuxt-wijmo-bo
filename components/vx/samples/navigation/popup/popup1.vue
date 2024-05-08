@@ -31,11 +31,11 @@
                 <VxFieldRow>
                   <VxField label="사용여부" :required="true" :labelWidth="100">
                     <VxRadioGroupBox
+                      v-model="inputFormData.useYn"
                       :itemsSource="[
                         { value: 'Y', text: '사용' },
                         { value: 'N', text: '미사용' },
                       ]"
-                      v-model="inputFormData.useYn"
                     ></VxRadioGroupBox>
                   </VxField>
                 </VxFieldRow>

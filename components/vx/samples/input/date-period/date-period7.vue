@@ -31,7 +31,7 @@ import doc from './md/date-period8.md'
 
 const dateArr11 = ref(['20220507', '20221009'])
 
-let buttonData = reactive([
+const buttonData = reactive([
   { value: '-1m', label: '-1개월' },
   { value: '-7D', label: '-1주' },
   { value: '-1d', label: '-1일' },
