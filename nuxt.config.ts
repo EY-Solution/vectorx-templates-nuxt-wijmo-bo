@@ -4,9 +4,6 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'VectorX Node Management System',
-      bodyAttrs: {
-        class: 'vx management',
-      },
     },
   },
   vite: {
