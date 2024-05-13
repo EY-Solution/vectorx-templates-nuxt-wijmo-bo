@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   ssr: false,
   app: {
     head: {
-      title: 'VectorX Node Management System',
+      title: 'VectorX Node Management System with Wijmo',
     },
   },
   vite: {
