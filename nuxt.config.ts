@@ -31,6 +31,7 @@ export default defineNuxtConfig({
     auth: {
       enabled: true,
       type: 'jwt',
+      loginPath: '/',
       jwt: {
         accessTokenKey: 'mng-bo-token',
         refreshTokenKey: 'mng-bo-rtoken',
@@ -68,6 +69,11 @@ export default defineNuxtConfig({
         ui: {
           tabMenu: {
             enabled: true,
+          },
+          defaultPage: {
+            login: {
+              path: '/',
+            },
           },
         },
       },
