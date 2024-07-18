@@ -49,7 +49,7 @@ export default defineNuxtConfig({
         },
       },
       env: {
-        secret: 'Z3NjLWNyeXB0by1rZXkxMQ==',
+        secret: 'ywf3ho12haq8029s98yjzg171evf180o',
       },
       wijmo: {
         enabled: true,
